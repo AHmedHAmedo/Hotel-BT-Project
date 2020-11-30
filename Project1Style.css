@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html , body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: #f7c08a;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 30px;
+}
+
+.container h1 a {
+    float: left;
+    color: white;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.container ul{
+    list-style: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.container ul li{
+    float: left;
+}
+.container ul li a{
+    color: white;
+    padding: 30px;
+}
+
+.navbar{
+    background-color: #333;
+    width: 100%;
+    height: 70px;
+}
+.container ul li a:hover ,.container ul li a.active {
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* Start Section using background */
+.background{
+    background-image: url("img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+.background h1{
+    padding-top: 200px;
+    font-size: 70px;
+    color: white;
+    line-height: 1.7em;
+    text-transform: capitalize;
+}
+
+.background p{
+    color: white;
+    font-size: 20px;
+}
+
+.background .btn-back{
+    background-color: #444;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.background .btn-back a{
+    color: white;
+    font-size: 18px;
+}
+
+.background .btn-back:hover{
+    background-color: #f7c08a;
+}
+.background .btn-back:hover a {
+    color: #444;
+}
+
+/* End Section using background */
+
+
+/* Start Section include Text and Image */
+.img{
+    background-image: url("img/photo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.information{
+    background-color: #333;
+    height: 400px;
+    text-align: center;
+}
+.information h1{
+    padding-top: 60px;
+    padding-bottom: 35px;
+    color: white;
+}
+
+.information p{
+    color: white;
+    padding-bottom: 35px;
+}
+
+.information .read-more{
+    padding: 20px;
+}
+
+.information .read-more a{
+    color: black;
+    font-size: 16px;
+}
+
+.information .read-more:hover{
+    background-color: #f7c08a;
+}
+
+/* End Section include Text and Image */
+
+/* Start Identical Divs */
+.box{
+    background-color: white;
+    height: 250px;
+    width: 33.33333333333333%;
+    color: #333;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.meals{
+    background-color: #f7c08a;
+}
+
+.divs h3{
+    padding-bottom: 38px;
+}
+
+/* End Identical Divs */
+
+/* start footer*/
+.foot{
+    overflow: hidden;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+/* End footer*/
+
+/* Start The Style of About Page */
+
+
+/* Start Intro About the Hotel */
+
+.Intro{
+    padding-top: 45px;
+    padding-left: 158px;
+    padding-bottom: 32px;
+    background-color: #f4f4f4;
+}
+
+.Intro .paragraph{
+    width: 55%;
+    float: left;
+    padding-right: 90px;
+    color: #333;
+}
+
+.paragraph h1{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.paragraph p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.introimg{
+    border-radius: 50%;
+}
+
+.aboutbody img{
+    border-radius: 50%;
+}
+
+/* End Intro About the Hotel */
+
+
+/* Start Reviews */
+.reviews{
+    background-image: url("img/test-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 565px;
+}
+
+.reviews h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.comment{
+    width: 80%;
+}
+
+.comment img{
+    float: left;
+}
+
+.comment p{
+    padding: 25px;
+    margin-left: 100px;
+    color: #333;
+}
+
+.comment{
+    margin-bottom: 50px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #f7c08a;
+    border-color: #f7c08a;
+    margin-left: 150px;
+}
+/* End Reviews */
+/* End The Style of About Page */
+
+
+/* Start The Style of Contact Page */
+
+/* Start Form Style */
+
+
+.abovetext h1{
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.abovetext p{
+    padding-left: 150px;
+    padding-bottom: 7px;
+}
+
+.group{
+    padding: 10px;
+    padding-left: 150px;
+}
+
+label{
+    cursor: default;
+    padding-bottom: 20px;
+}
+
+textarea {
+    width: 85%;
+    padding: 80px;
+    border: 1px #ddd solid;
+}
+
+textarea:hover , input:hover{
+    border-color: #f7c08a;
+}
+
+input{
+    width: 85%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+.clr{
+    clear: both;
+}
+
+.formgroup .btn-submit{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.formgroup .btn-submit:hover{
+    background-color: #f7c08a;
+    color: #333;
+    border-color: #f7c08a;
+}
+
+/* End Form Style */
+
+
+/* Start Contacts divs */
+
+.contacts{
+    height: 243px;
+    background-color: #333;
+}
+
+.contacts .boxi{
+    color: white;
+    padding: 50px;
+    float: left;
+    width: 33.33333333333333%;
+    text-align: center;
+}
+
+.contacts h3{
+    padding-bottom: 35px;
+    padding-top: 5px;
+}
+
+.contacts .location{
+    padding-left: 235px;
+}
+
+.contacts .number{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.contacts .email{
+    padding-right: 237px;
+}
+
+/* End Contacts divs */
+
+
+
+
+/* End The Style of Contact Page */
